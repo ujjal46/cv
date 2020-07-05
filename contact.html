@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+  </head>
+  <body>
+    <h3>Contact Information</h3>
+    <a href="www.dummymail.com">Email me</a>
+    <p>
+    <address>
+      Uday Nagar, Khanapara <br>
+      Guwahati, AS 781022 <br>
+      India
+    </address>
+  </P>
+
+<form action="formSubmit.html" method="post" enctype="text/plain">
+  <table cellspacing="10px" cellpadding="12px" border="0px">
+    <thead>
+      <th colspan="2">Contact Me</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td><label for="">Name</label></td>
+        <td><input type="text" name="yourName" value=""></td>
+      </tr>
+      <tr>
+        <td><label for="">Email ID</label></td>
+        <td><input type="email" name="yourEmail"></td>
+      </tr>
+      <tr>
+        <td><label for="">Enter your message</label></td>
+        <td><textarea rows="5" cols="20" name="yourMessage" value=""></textarea></td>
+      </tr>
+      <tr>
+        <td><label for="">Gender</label></td>
+        <td>
+          <input type="radio" name="yourGender" value="Male" >
+          <label for="">Male</label><br />
+          <input type="radio" name="yourGender" value="Female">
+          <label for="">Female</label>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="">Select your age</label></td>
+      <td><select name="yourAge" value="">
+        <option value="Less than 18" name="yourAge">Less than 18</option>
+        <option value="Less than 25" name="yourAge">Less than 25</option>
+        <option value="Less than 30" name="yourAge">Less than 30</option>
+        <option value="Less than 35" name="yourAge">Less than 35</option>
+        <option value="More than 35" name="yourAge">More than 35</option>
+      </td>
+    </tr>
+    <tr cellspacing="3px">
+    <td colspan="2" align="center"><input type="submit" name="" value="Submit"></td>
+  </tr>
+    </tbody>
+  </table>
+</form>
+
+
+</body>
+</html>
